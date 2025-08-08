@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            color: grey;
+        }
+        p{
+            margin-left:15px;
+        }
+        .all-container{
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            background-color: rgb(223, 230, 230);
+            border: 2px solid grey;
+            
+            
+        }
+        .container1{
+            border: 2px solid grey;
+            width: 30%;
+            padding: 20px;
+            margin-left: 20%;
+
+        }
+        .non-float{
+            background-color: #d31c1c;
+            padding: 20px;
+            margin-top: 15px;
+            width:85px;
+            margin-left: 15px;;
+            
+           
+        }
+        .container2{
+            border: 2px solid grey;
+            width: 30%;
+             padding: 20px;
+             margin-right: 20%;
+            
+        }
+        .float{
+            background-color: #d31c1c;
+            padding: 20px;
+            margin-top: 15px;
+            margin-left: 15px;;
+            width:85px;
+           float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Css Float and Clear</h1>
+    <br><br>
+    <div class="all-container">
+        <div class="container1">
+        <div class="non-float">
+            Non Float
+
+        </div>
+        <p>Lorem ipsum dolor sit, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, excepturi, corporis debitis quibusdam dolore aperiam cumque ipsa veritatis deleniti alias velit non dolorum, quis aliquam ratione voluptatibus exercitationem quaerat possimus. amet consectetur adipisicing elit. Eaque itaque consectetur quae eum laudantium. Eveniet ipsa illo at aliquam dolorem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. In nemo voluptatem velit a numquam ratione.</p>
+    </div>
+    <div class="container2">
+        <div class="float">
+            Left Float
+
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque itaque consectetur quae eum laudantium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias a quae harum quia quaerat debitis, expedita adipisci ducimus numquam quasi beatae molestias nesciunt ad corporis. Eaque tempore laboriosam voluptates numquam. Eveniet ipsa illo at aliquam dolorem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. In nemo voluptatem velit a numquam ratione.</p>
+    </div>
+    </div>
+</body>
+</html>
