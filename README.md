@@ -1,0 +1,5 @@
+# Bootstrap Webpages
+
+This project contains a collection of webpages created while learning **Bootstrap 5**.  
+It is meant for practice and experimentation with Bootstrap components, utilities, and responsive design.
+
