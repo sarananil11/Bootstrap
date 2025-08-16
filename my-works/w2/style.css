@@ -1,0 +1,93 @@
+
+body{
+    background-color: rgb(255, 255, 255) !important;
+}
+.logo{
+    cursor: pointer;
+}
+.navbar{
+    background-color: rgb(21, 116, 179);
+    
+}
+.navbar-brand{
+    font-size: 30px !important;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.heading-para{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav-link:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.nav-link:active{
+    color: blue !important;
+}
+.pfp{
+    border-radius: 50%;
+    cursor: pointer;
+}
+.modal-p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading1{
+    margin: 80px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(63, 63, 63);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.modal-p{
+    margin-left: 16px;
+}
+.rolex-span, .titan-span, .gshock-span{
+    color: red;
+}
+
+.container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.heading-rolex, .heading-gshock, .heading-titan{
+    text-align: center;
+}
+.card{
+    /* display: grid; */
+    transition: transform 0.3s ease ;
+}
+.card:hover{
+    transform: scale(1.02);
+    
+}
+.btn{
+    background-color: rgb(100, 97, 97) !important;
+    color: white !important;
+}
+.btn:hover{
+    background-color: rgb(31, 30, 30) !important;
+
+}
+.cardmain{
+    margin-top: 60px;
+}
+.map-heading, .heading-client{
+    margin-top: 110px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(63, 63, 63);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer_content{
+    font-size: large;
+    text-align: center;
+    padding: 3rem;
+    font-weight: bold;
+}
