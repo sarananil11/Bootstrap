@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Saran Executives</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .nav-link:active{
+color: rgb(255, 234, 114);
+    }
+    a,.nav-link{
+        color: white;
+    }
+    .navbar-brand{
+    font-size: 30px !important;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+    .navbar {
+      background-color: rgb(6, 42, 56);
+    }
+    .hero-section {
+      background: url('https://images.unsplash.com/photo-1523275335684-37898b6baf30') no-repeat center center/cover;
+      height: 50vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+    }
+    .hero-section::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.6);
+    }
+    .hero-text {
+      position: relative;
+      z-index: 2;
+    }
+    .about-content {
+      padding: 60px 15px;
+    }
+    .about-content h2 {
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .about-content p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+    .footer {
+      background: #212529;
+      color: #aaa;
+      padding: 20px 0;
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container-fluid">
+        <img
+          class="logo"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDBwcPM8BUqHnxqx_QXwJi4OViAdqj9fQPQ&s"
+          width="60px"
+          height="50px"
+          alt=""
+        />
+      <a class="navbar-brand" href="index.html"><strong>Saran Executives</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html"><strong>Home</strong></a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html"><strong>Contact Us</strong></a></li>
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-text">
+      <h1 class="display-4 fw-bold">About Saran Executives</h1>
+      <p class="lead">Crafting Timepieces That Define Elegance</p>
+    </div>
+  </section>
+
+  <!-- About Content -->
+  <section class="about-content container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="https://www.ethoswatches.com/the-watch-guide/wp-content/uploads/2015/07/Featured-img1.jpg" class="img-fluid rounded shadow-lg" alt="Luxury Watch">
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <h2>Who We Are</h2>
+        <p>
+          At <strong>Saran Executives</strong>, we believe that a watch is more than just a timekeeper—it is a reflection of style, personality, and timeless craftsmanship. 
+          Founded with a passion for horology, our company brings together premium collections of watches ranging from classic elegance to modern innovation.
+        </p>
+        <p>
+          We curate brands like Titan, Rolex, Jacob & Co., and G-Shock, ensuring our customers experience the perfect balance of affordability, prestige, and luxury. 
+          With a strong focus on quality and design, Saran Executives continues to redefine the art of wearing time.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Saran Executives. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

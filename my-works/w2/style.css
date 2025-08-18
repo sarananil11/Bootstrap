@@ -6,8 +6,22 @@ body{
     cursor: pointer;
 }
 .navbar{
-    background-color: rgb(21, 116, 179);
+    background-color: rgb(6, 42, 56);
     
+}
+.hero-section {
+      background: url('https://wallpapercrafter.com/desktop2/701460-pose-butterfly-watch-costume-actor-lies-black.jpg') no-repeat center center/cover ;
+      height: 55vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      
+    }
+a{
+    color: white !important;
 }
 .navbar-brand{
     font-size: 30px !important;
@@ -16,18 +30,23 @@ body{
 }
 .heading-para{
     text-align: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Times New Roman', Times, serif
 }
-.nav-link:hover{
-    background-color: rgb(255, 255, 255);
+/* .nav-link:hover{
+    background-color: rgb(57, 202, 235);
     border-radius: 5px;
-}
+} */
 .nav-link:active{
-    color: blue !important;
+    color: rgb(255, 239, 116) !important;
 }
 .pfp{
     border-radius: 50%;
     cursor: pointer;
+}
+.img-rounded{
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
 }
 .modal-p{
     font-family: 'Times New Roman', Times, serif;
@@ -38,45 +57,36 @@ body{
     font-size: 40px;
     font-weight: bolder;
     color: rgb(63, 63, 63);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 .modal-p{
     margin-left: 16px;
 }
-.rolex-span, .titan-span, .gshock-span{
+span{
     color: red;
 }
 
-.container{
+/* .container{
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
     
-}
+} */
 
-.heading-rolex, .heading-gshock, .heading-titan{
+.card-title{
     text-align: center;
 }
 .card{
     /* display: grid; */
-    transition: transform 0.3s ease ;
+    transition: transform 0.2s ease-in-out ;
+    cursor: pointer;
 }
 .card:hover{
     transform: scale(1.02);
     
 }
-.btn{
-    background-color: rgb(100, 97, 97) !important;
-    color: white !important;
-}
-.btn:hover{
-    background-color: rgb(31, 30, 30) !important;
 
-}
-.cardmain{
-    margin-top: 60px;
-}
-.map-heading, .heading-client{
+.heading-client{
     margin-top: 110px;
     text-align: center;
     font-size: 40px;
@@ -84,10 +94,11 @@ body{
     color: rgb(63, 63, 63);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-
-.footer_content{
-    font-size: large;
-    text-align: center;
-    padding: 3rem;
-    font-weight: bold;
-}
+.footer {
+      background: #212529;
+      color: #aaa;
+      padding: 20px 0;
+      text-align: center;
+      margin-top: 40px;
+    }
+  
